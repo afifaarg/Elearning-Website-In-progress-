@@ -1,0 +1,295 @@
+<?php
+   require_once'DBconnection.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECourse-Acceuil</title>
+
+    <!-- linking style file -->
+    <link rel="stylesheet" href="AcceuilStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Kumbh+Sans:wght@400;600&display=swap" 
+rel="stylesheet">
+
+</head>
+
+<body>
+
+ <!-- header part -->
+   <div class="header" id="acceuil"> 
+   <div class="logo"> E-COURSE </div>
+        <div class="menu">
+            <div class="form"><a href="#Formations">Courses</a>  </div>
+            <div class="abt"><a href="#aboutUs">AboutUS</a></div>
+            <div class="cont"> <a href="#contactUs">Contact Us</a> </div>
+         </div>
+      <div class="separator"></div>
+         <div class="authentification">
+            <div class="Connexion">Sign In</div>
+            <div class="Register"> Sign Up</div>
+         </div>
+    </div>
+
+<!-- mainPage part  -->
+<div class="main" id="main">
+    <div class="coverImg"> </div>
+    <div class="SiteDesc">
+       
+        <p>« PEOPLE EXPECT BEING BORED BY E-LEARNING <br>
+            LET'S SHOW THEM IT DOESN'T HAVE TO BE LIKE THAT » <br>- CAMMY BEAN -</p>
+   
+   
+        <div class="search-box">
+            <input type="text"  placeholder="Rechercher de Formation...">
+           <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/> </svg>
+           </a> 
+        </div> 
+    </div>
+    
+ </div>
+
+
+ <!-- formations  page -->
+ <div class="Formations" id="Formations">
+  <h1> Courses </h1>
+    
+    <div class="formDispo">
+        <div class="course">
+           <div class="coverCourse">
+             <img src="./images/PythonCourse.jpg" alt="Python Course">
+           </div>   
+            <div class="DescCourse">
+                <label id="title"> Complete Python Course  </label> <br>
+                <label id="instructor" > Instructor: xxx xxx</label> <br>
+                <label id="statistics"> 22 total hours | 155Lectures | All levels </label> 
+            </div>  
+        </div>
+
+        <div class="course">
+            <div class="coverCourse">
+                <img src="./images/reactcourse.jpg" alt="React Course">
+              </div>   
+               <div class="DescCourse">
+                   <label id="title"> ReactJS course for beginners !  </label> <br>
+                   <label id="instructor" > Instructor: xxx xxx</label> <br>
+                   <label id="statistics"> 30 total hours | 100Lectures | JS developper </label> 
+               </div>   
+        </div>
+
+        <div class="course">
+            <div class="coverCourse">
+                <img src="./images/english.jpg" alt="english Course">
+              </div>   
+               <div class="DescCourse">
+                   <label id="title"> English speaking course !  </label> <br>
+                   <label id="instructor" > Instructor: xxx xxx</label> <br>
+                   <label id="statistics"> 20 total hours | 50Lectures | All levels </label> 
+               </div>  
+        </div>
+
+        <div class="course">
+            <div class="coverCourse">
+                <img src="./images/selfDev.jpg" alt="selfdev">
+              </div>   
+               <div class="DescCourse">
+                   <label id="title"> Self Devloppment course !  </label> <br>
+                   <label id="instructor" > Instructor: xxx xxx</label> <br>
+                   <label id="statistics"> 10total hours | 5Lectures | All levels </label> 
+               </div>  
+        </div>
+
+        <div class="course">
+            <div class="coverCourse">
+                <img src="./images/Marketing.jpg" alt="Marketing">
+              </div>   
+               <div class="DescCourse">
+                   <label id="title"> Digital Marketing course !  </label> <br>
+                   <label id="instructor" > Instructor: xxx xxx</label> <br>
+                   <label id="statistics"> 25total hours | 15Lectures | All levels </label> 
+               </div>  
+        </div>
+
+        <div class="course">
+            <div class="coverCourse">
+                <img src="./images/AndroidDev.jpg" alt="Android Devloppment">
+              </div>   
+               <div class="DescCourse">
+                   <label id="title"> Android Dev course !  </label> <br>
+                   <label id="instructor" > Instructor: xxx xxx</label> <br>
+                   <label id="statistics"> 35total hours | 45Lectures | All levels </label> 
+               </div>  
+        </div>
+
+        <div class="course">
+            <div class="coverCourse">
+                <img src="./images/MicrosoftOff.jpg" alt="Microsoft Office course">
+              </div>   
+               <div class="DescCourse">
+                   <label id="title"> Become a pro in Microsoft office !  </label> <br>
+                   <label id="instructor" > Instructor: xxx xxx</label> <br>
+                   <label id="statistics"> 15total hours | 10Lectures | All levels </label> 
+               </div>  
+        </div>
+
+        <div class="course">
+            <div class="coverCourse">
+                <img src="./images/Mathscourse.jpg" alt="Maths">
+              </div>   
+               <div class="DescCourse">
+                   <label id="title"> Train your mathematical brain !  </label> <br>
+                   <label id="instructor" > Instructor: xxx xxx</label> <br>
+                   <label id="statistics"> 20total hours | 20Lectures | All levels </label> 
+               </div>  
+        </div>        
+    </div>  
+    
+    <a href="./allCoursesPage.html"> <button> View more courses</button></a>
+   
+ </div>
+
+
+ <!-- AboutUS PART -->
+<div class="aboutUs" id="aboutUs">
+   <h1> What is E-Course</h1>
+   <div class="ExplainAboutUs">
+    <div class="coverImgabtUs"> </div>    
+    <p>  E-LEARN est un site web de elearning Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, cupiditate quasi doloremque error ut mollitia. Aperiam, deleniti. Recusandae quibusdam magnam, necessitatibus
+         similique iure a atque aperiam consequuntur impedit veritatis! Quisquam.  </p>   
+   </div>
+</div>
+  <!-- Contact PART -->
+  <div class="contactUs" id="contactUs">
+    <h1> Reach US </h1>
+    <div class="contact">
+     <div class="contactUsCover"> </div>    
+      <div class="exp">
+         <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Have something to say ? A feedback to give ? <br> Your comments are always welcome , go ahead and get in touch with us !</p>
+        <button type="submit"> Get in touch </button>
+      </div>
+    </div>
+</div>
+
+<!-- footer page  -->
+<div class="footer">
+   <p> Made with ❤️ by AFIFA ARGOUB </p> 
+</div>
+<a href="#acceuil" id="return-to-top"><img src="./images/up-arrow-svgrepo-com.svg" alt=""> </a>
+
+
+<!-- ----------------------------------------------signIn / signUp part------------------------------------------------------------------ -->
+
+<div class="backG">
+    <div class="container">
+        <div class="signIn">
+            <h1> Sign In</h1>
+
+            <div class="login-form">
+        <?php 
+            if(isset($_GET['reg_err']))
+            {
+                $err = htmlspecialchars($_GET['reg_err']);
+
+                switch($err)
+                {
+                    case 'success':  
+                    ?>
+                        <div class="alert success">
+                           
+                            <strong>Succès</strong> inscription réussie !
+                        </div>
+                    <?php
+                    break;
+
+                    case 'cat':
+                    ?>
+                        <div class="alert fail">
+                            <strong>Erreur</strong> please choose your categorie
+                        </div>
+                    <?php 
+
+                }
+            }
+            ?>
+    </div>
+            <form >
+                <div class="select">
+                    <select name="categorie">
+                      <option> I am a ...</option>
+                      <option value="stuC"> Student</option>
+                      <option value="instC"> Instructor</option>
+                    </select>
+                </div>
+
+                <input type="email"  id="emailC" placeholder="E-mail">
+                <input type="password"  id="pwdC" placeholder="Password">
+
+                <button type="submit">Log In</button>
+                <p> You are not part of family ? <span id="JoinUs"> Join Us.</span></p>
+            </form>
+        </div>
+
+        <div class="signUp">
+            <h1> Sign Up</h1>
+            <div class="login-form">
+        <?php 
+            if(isset($_GET['reg_err']))
+            {
+                $err = htmlspecialchars($_GET['reg_err']);
+
+                switch($err)
+                {
+                    case 'success':  
+                    ?>
+                        <div class="alert success">
+                           
+                            <strong>Succès</strong> inscription réussie !
+                        </div>
+                    <?php
+                    break;
+
+                    case 'cat':
+                    ?>
+                        <div class="alert fail">
+                            <strong>Erreur</strong> please choose your categorie
+                        </div>
+                    <?php 
+
+                }
+            }
+            ?>
+    </div>
+           <form action="Inscription.php" method="post">
+            <div class="select">
+                <select name="categorie">
+                  <option value=""> I am a ...</option>
+                  <option value="stuS"> Student</option>
+                  <option value="instS"> Instructor</option>
+                </select>
+            </div>
+            <input type="text"  name="Name" placeholder="Name">
+            <input type="text"  name="lastName" placeholder="Last-Name">
+            <input type="email"   name="emailS"  placeholder="E-mail">
+            <input type="password"  name="pwdS" placeholder="Password">
+
+            <button type="submit">Join Us</button>
+            <p> Already part of family ? <span id="LogIn"> LogIn.</span></p>
+           
+           </form>
+                    
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="Acceuil.js"></script>
+</body>
+</html>

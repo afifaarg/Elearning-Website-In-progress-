@@ -1,0 +1,154 @@
+html{
+    scroll-behavior: smooth;
+    margin:0px;
+    height:100%;
+    width:100%
+    
+}
+
+body{
+   padding:0;
+   margin: 0;   
+   display: block;
+   height:100%;
+   width:100%;
+   overflow-x: hidden;
+}
+
+
+.menu{
+    display: flex;
+    justify-content:space-evenly; 
+    width: 80%;
+    height:40px;
+    margin-left: 150px;
+    padding-top: 20px;
+    background-color: white;  
+}
+
+.separator {
+    background-color: rgb(82, 81, 81);
+    width:1px;
+    height:20px;
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0b0014ff;
+}
+
+.logo{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #014CC2;
+    font-weight:900;
+    font-size: larger;
+    margin-left: 20px;
+    width:150px;
+}
+
+.authentification{
+    display: flex;
+    justify-content: space-evenly;
+    width:200px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Register{
+    background-color:  #014CC2;
+    border-radius: 10px;
+    padding: 2px;
+    height: 20px;
+    width:100px;
+    text-align: center;
+    padding:2px;
+    color:#FFE4EE;
+}
+
+a:hover{
+    color:#014CC2;
+}
+
+.Connexion:hover{
+    color:#014CC2;
+}
+
+.formDispo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    width:1000px;
+    margin-top: 90px;
+    margin-left: 80px;
+ }
+ 
+ .course{
+     border: 1px solid rgba(173, 171, 171, 0.281);
+     height:200px;
+     width:270px;  
+     margin: 15px;
+     cursor: pointer;
+ }
+ .course:hover{
+     -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ }
+ 
+ @keyframes slide-top {
+     0% {
+       -webkit-transform: translateY(0);
+               transform: translateY(0);
+     }
+     100% {
+       -webkit-transform: translateY(-20px);
+               transform: translateY(-20px);
+     }
+   }
+ .course .coverCourse{
+     height:120px;
+ }
+ 
+ .course img{
+     width: 100%;
+     max-height: 100%;
+ }
+ 
+ 
+ .course .DescCourse{
+   position: absolute;
+   height:80px;
+   width:250px;
+   margin-top: 0;
+   
+ }
+ 
+ .course .DescCourse #title{
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-size: 15px;
+     color: rgb(54, 53, 53);
+     cursor: pointer;
+   }
+ 
+ .course .DescCourse #title:hover{
+     color:#014CC2;
+     text-decoration: underline;
+ 
+ }
+ 
+ 
+   .course .DescCourse #instructor{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 10px;
+     color:rgb(117, 116, 116);
+ 
+   }
+ 
+   .course .DescCourse #statistics{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 10px;
+     color:rgb(180, 175, 175)
+   }
+ 
